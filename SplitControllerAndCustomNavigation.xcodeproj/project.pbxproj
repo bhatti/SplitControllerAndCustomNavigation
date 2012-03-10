@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B157EA1150BBBD8008F5CFD /* offSettings.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B157E9D150BBBD8008F5CFD /* offSettings.png */; };
+		3B157EA2150BBBD8008F5CFD /* onSettings.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B157E9F150BBBD8008F5CFD /* onSettings.png */; };
 		3B771D6B150ABE7F008699A8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B771D6A150ABE7F008699A8 /* UIKit.framework */; };
 		3B771D6D150ABE7F008699A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B771D6C150ABE7F008699A8 /* Foundation.framework */; };
 		3B771D6F150ABE7F008699A8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B771D6E150ABE7F008699A8 /* CoreGraphics.framework */; };
@@ -43,6 +45,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B157E9E150BBBD8008F5CFD /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = en.lproj/offSettings.png; sourceTree = "<group>"; };
+		3B157EA0150BBBD8008F5CFD /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = en.lproj/onSettings.png; sourceTree = "<group>"; };
 		3B771D66150ABE7E008699A8 /* SplitControllerAndCustomNavigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SplitControllerAndCustomNavigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B771D6A150ABE7F008699A8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3B771D6C150ABE7F008699A8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -159,6 +163,8 @@
 		3B771D71150ABE7F008699A8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3B157E9D150BBBD8008F5CFD /* offSettings.png */,
+				3B157E9F150BBBD8008F5CFD /* onSettings.png */,
 				3B771D9A150B0E5D008699A8 /* onUpRight.png */,
 				3B771D9C150B0E5D008699A8 /* onUpLeft.png */,
 				3B771D9E150B0E5D008699A8 /* onUp.png */,
@@ -258,6 +264,8 @@
 				3B771DD3150B0E5D008699A8 /* offDownRight.png in Resources */,
 				3B771DD4150B0E5D008699A8 /* offDownLeft.png in Resources */,
 				3B771DD5150B0E5D008699A8 /* offDown.png in Resources */,
+				3B157EA1150BBBD8008F5CFD /* offSettings.png in Resources */,
+				3B157EA2150BBBD8008F5CFD /* onSettings.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +291,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		3B157E9D150BBBD8008F5CFD /* offSettings.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B157E9E150BBBD8008F5CFD /* en */,
+			);
+			name = offSettings.png;
+			sourceTree = "<group>";
+		};
+		3B157E9F150BBBD8008F5CFD /* onSettings.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B157EA0150BBBD8008F5CFD /* en */,
+			);
+			name = onSettings.png;
+			sourceTree = "<group>";
+		};
 		3B771D73150ABE7F008699A8 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -542,6 +566,7 @@
 				3B771D86150ABE7F008699A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

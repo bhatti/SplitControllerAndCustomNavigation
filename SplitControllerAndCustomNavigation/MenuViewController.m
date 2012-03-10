@@ -3,7 +3,7 @@
 #import "Configuration.h"
 #import "MenuCellView.h"
 #import "MenuInfo.h"
-
+#import "CustomNavigationController.h"
 
 
 
@@ -11,15 +11,13 @@
 @synthesize menuItems = _menuItems;
 @synthesize masterDetailSplitController = _masterDetailSplitController;
 
-const int kTableLength=320;
-
 
 - (id)initWithSplit:(MasterDetailSplitController*)split {
     self = [super initWithStyle:UITableViewStylePlain];
     if (self) {        
         self.masterDetailSplitController = split;
         self.tableView.separatorColor = [UIColor clearColor];
-        self.menuItems = [[[NSMutableArray alloc] initWithCapacity:7] autorelease];
+        self.menuItems = [[[NSMutableArray alloc] initWithCapacity:10] autorelease];
     }
     return self;
 }
@@ -28,6 +26,10 @@ const int kTableLength=320;
 -(void)refresh {
     MenuInfo *menu = nil;
     [self.menuItems removeAllObjects];
+    CustomNavigationController *settingsCtr = [[[CustomNavigationController alloc] initWithStyle:UITableViewStylePlain] autorelease];
+    menu = [[[MenuInfo alloc] initWithLabel:@"Settings" andOnImage:@"onSettings.png" andOffImage:@"offSettings.png" andController:settingsCtr] autorelease];
+    [self.menuItems addObject:menu];
+    
     NSArray *orderList = [[Configuration sharedConfiguration] getNavigationOrder];
     for (NSString *order in orderList) {
         MenuKind kind = (MenuKind) [order intValue];
