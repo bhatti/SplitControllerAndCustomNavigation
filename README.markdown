@@ -7,13 +7,13 @@ Finally, it comes with a customizer controller that allows users to re-order the
 Screenshot
 ----------
 
-![iPhone Portrait](https://github.com/bhatti/SplitControllerAndCustomNavigation/raw/master/ipad_portrait.png)
+![iPhone Portrait](https://github.com/bhatti/SplitControllerAndCustomNavigation/raw/master/iphone_portrait.png)
 
-![iPhone Landscape](https://github.com/bhatti/SplitControllerAndCustomNavigation/raw/master/ipad_landscape.png)
+![iPhone Landscape](https://github.com/bhatti/SplitControllerAndCustomNavigation/raw/master/iphone_landscape.png)
 
-![iPad Portrait](https://github.com/bhatti/SplitControllerAndCustomNavigation/raw/master/iphone_portrait.png)
+![iPad Portrait](https://github.com/bhatti/SplitControllerAndCustomNavigation/raw/master/ipad_portrait.png)
 
-![iPad Landscape](https://github.com/bhatti/SplitControllerAndCustomNavigation/raw/master/iphone_landscape.png)
+![iPad Landscape](https://github.com/bhatti/SplitControllerAndCustomNavigation/raw/master/ipad_landscape.png)
 
 (Note that iPad images are stretched to show that they are horizontal and vertical scrollable)
 
