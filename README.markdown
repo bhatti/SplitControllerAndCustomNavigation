@@ -7,11 +7,11 @@ Finally, it comes with a customizer controller that allows users to re-order the
 Screenshot
 ----------
 
-![shots/ipad_portrait.png](/shots/ipad_portrait.png "iPhone Portrait")
-![shots/ipad_landscape.png](/shots/ipad_landscape.png "iPhone Landscape")
+![iPhone Portrait](/shots/ipad_portrait.png "iPhone Portrait")
+![iPhone Landscape](/shots/ipad_landscape.png "iPhone Landscape")
 
-![shots/iphone_portrait.png](/shots/iphone_portrait.png  "iPad Portrait")
-![shots/iphone_landscape.png](/shots/iphone_landscape.png "iPad Landscape")
+![iPad Portrait](shots/iphone_portrait.png  "iPad Portrait")
+![iPad Landscape](shots/iphone_landscape.png "iPad Landscape")
 
 (Note that iPad images are stretched to show that they are horizontal and vertical scrollable)
 
