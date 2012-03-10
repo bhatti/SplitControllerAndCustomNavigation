@@ -1,11 +1,3 @@
-//
-//  Configuration.m
-//  OptionsHouse
-//
-//  Created by Shahzad Bhatti on 11/29/10.
-//  Copyright 2010 __MyCompanyName__. All rights reserved.
-//
-
 #import "Configuration.h"
 #import "SynthesizeSingleton.h"
 
